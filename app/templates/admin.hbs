@@ -1,7 +1,7 @@
-{{new-service saveService="saveService"}}
+{{new-service saveService="saveService" updateService="updateService"}}
 
 <div class="row service-row">
   {{#each model as |service|}}
-    {{service-tile service=service destroyService="destroyService"}}
+    {{service-tile service=service  destroyService="destroyService"}}
   {{/each}}
 </div>
