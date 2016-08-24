@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('admin');
+  this.route('shop');
+  this.route('feedback', {path:'/feedback/:service_id'});
 });
 
 export default Router;

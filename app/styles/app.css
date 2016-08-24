@@ -9,3 +9,7 @@ body{
 .thumbnail img{
   height: 240px;
 }
+
+.add-to-cart{
+  text-align: right;
+}

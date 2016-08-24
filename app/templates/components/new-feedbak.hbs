@@ -1,0 +1,16 @@
+<h1>Leave Feedback</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="feedbackPersonName">Your Name</label>
+      {{input value=feedbackPersonName id="feedbackPersonName"}}
+    </div>
+
+    <div class="form-group">
+      <label for="serviceFeedback">Your Feedback</label>
+      {{textarea rows="5" cols="50" value=serviceFeedback id="serviceFeedback"}}
+    </div>
+
+    <button class="btn btn-success" {{action 'saveFeedback'}}>Post Feedback</button>
+  </form>
+</div>

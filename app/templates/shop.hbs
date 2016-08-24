@@ -1,0 +1,11 @@
+<h1>Shopping Cart</h1>
+
+  {{display-cart}}
+
+
+<h1>List of English Services Available</h1>
+<div class="row service-row">
+  {{#each model as |service|}}
+    {{shop-service-tile service=service}}
+  {{/each}}
+</div>

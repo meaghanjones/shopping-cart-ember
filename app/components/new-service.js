@@ -9,7 +9,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         description: this.get('description'),
         photo: this.get('photo'),
-        price: this.get('price')
+        price: parseInt(this.get('price')).toFixed(2)
       };
       this.sendAction('saveService', params);
       this.set('name',"");
@@ -23,11 +23,14 @@ export default Ember.Component.extend({
         name: this.get('name'),
         description: this.get('description'),
         photo: this.get('photo'),
-        price: this.get('price')
+        price: parseInt(this.get('price')).toFixed(2)
       };
       this.sendAction('updateService', service, params);
       this.get('showUpdate').hideUpdateService();
-
+      this.set('name',"");
+      this.set('price',"");
+      this.set('photo',"");
+      this.set('description',"");
     },
 
   }
