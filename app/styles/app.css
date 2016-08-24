@@ -1,0 +1,11 @@
+body{
+  padding-top: 50px;
+}
+
+.service-row{
+  margin-top: 20px;
+}
+
+.thumbnail img{
+  height: 240px;
+}
