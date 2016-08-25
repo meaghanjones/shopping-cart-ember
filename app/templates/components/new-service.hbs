@@ -4,17 +4,17 @@
   <form>
     <div class="form-group">
       <label for="name">Name</label>
-      {{input value=name id="name" placeholder=showUpdate.service.name}}
+      {{input value=name   placeholder=showUpdate.service.name id="name"}}
     </div>
 
     <div class="form-group">
       <label for="price">Price</label>
-      {{input value=price id="price" placeholder=showUpdate.service.price}}
+      {{input value=price  id="price" placeholder=showUpdate.service.price}}
     </div>
 
     <div class="form-group">
       <label for="photo">Photo URL</label>
-      {{input value=photo id="photo" placeholder=showUpdate.service.photo}}
+      {{input value=photo  id="photo" placeholder=showUpdate.service.photo}}
     </div>
 
     <div class="form-group">
@@ -24,14 +24,14 @@
 
     <div class="form-group">
       <label for="latitude">Latitude</label>
-      {{input value=latitude id="latitude"}}
+      {{input value=latitude  placeholder=showUpdate.service.latitude id="latitude"}}
     </div>
 
     <div class="form-group">
       <label for="longitude">Longitude</label>
-      {{input value=longitude id="longitude"}}
+      {{input value=longitude  placeholder=showUpdate.service.longitude id="longitude"}}
     </div>
-    
+
     <button class="btn btn-success" {{action 'updateService' showUpdate.service}}>update</button>
   </form>
 </div>

@@ -5,6 +5,7 @@
       <h3>{{service.name}}</h3>
       <p>{{service.description}}</p>
       <p>{{service.price}}</p>
+      {{service-cost service}}
       <div class="add-to-cart">
         {{#link-to 'map' service.id}} <i class="fa fa-map-marker fa-2x" aria-hidden="true" {{action 'showMap' service}}></i> {{/link-to}} &nbsp;&nbsp;&nbsp;
         {{#link-to 'shop.feedback' service.id}} <button class="btn btn-info" >Feedback</button> {{/link-to}}
