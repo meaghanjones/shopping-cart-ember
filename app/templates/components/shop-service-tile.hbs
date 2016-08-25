@@ -6,7 +6,8 @@
       <p>{{service.description}}</p>
       <p>{{service.price}}</p>
       <div class="add-to-cart">
-        {{#link-to 'feedback' service.id}} <button class="btn btn-info" >Feedback</button> {{/link-to}}
+        {{#link-to 'map' service.id}} <i class="fa fa-map-marker fa-2x" aria-hidden="true" {{action 'showMap' service}}></i> {{/link-to}} &nbsp;&nbsp;&nbsp;
+        {{#link-to 'shop.feedback' service.id}} <button class="btn btn-info" >Feedback</button> {{/link-to}}
         <button class="btn btn-warning" {{action 'addToCart' service}}>Add to Cart</button>
       </div>
     </div>

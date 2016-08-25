@@ -1,6 +1,6 @@
 <h1>Feedback for {{model.name }}</h1>
-<!-- {{#each model.feedbacks as |feedback|}}
+{{#each model.feedbacks as |feedback|}}
   {{feedback-list feedback=feedback}}
-{{/each}} -->
+{{/each}}
 
 {{new-feedbak service=model saveFeedback="saveFeedback"}}

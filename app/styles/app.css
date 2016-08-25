@@ -13,3 +13,12 @@ body{
 .add-to-cart{
   text-align: right;
 }
+
+.feedback-row {
+  margin-bottom: 50px;
+}
+
+.map-display {
+    height: 600px;
+    width: 600px;
+  }

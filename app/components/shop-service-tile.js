@@ -6,6 +6,9 @@ export default Ember.Component.extend({
   actions: {
     addToCart(service){
       this.get('shoppingCart').add(service);
+    },
+    showMap(service){
+      this.sendAction("showMap", service);
     }
   }
 });
