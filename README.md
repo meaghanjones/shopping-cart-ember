@@ -1,7 +1,10 @@
 # Online-shop
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By _**Meaghan Jones and Rony Nasr, August 2016**_
+
+### Description 
+For this proect we combined concepts and tools we've learned over the past several weeks to create an E-commerce site. Focus especially on computed properties, helpers and services. [Click here to see the Epicodus description of the project](https://www.learnhowtoprogram.com/javascript/ember-extended/e-commerce-site-two-day-project)
+
 
 ## Prerequisites
 
@@ -50,4 +53,10 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+  
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **Meaghan Jones**
 
